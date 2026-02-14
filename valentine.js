@@ -9,12 +9,6 @@ button.addEventListener('click' , function() {
 
 })
 
-const noButton = document.getElementById("hoverButton")
-
-noButton.document.addEventListener('click', function(){
-    alert("SIKE! YOUR MINE ALREADY ;) I LOVE YOUUU")
-    window.location.href = "pageTwo.html";
-})
 
 
 
@@ -29,6 +23,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // setting button change speed on x,y axis'
     let xSpeed = 2;
     let ySpeed = 3;
+
+     button.addEventListener('click', function(){
+        alert("SIKE!!! YOU'RE ALREADY MINE MUWAHAHAHA ;) <3333")
+        window.location.href = "pageTwo.html"
+    })
 
     
     function animateButton(){
@@ -66,3 +65,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 });
+
