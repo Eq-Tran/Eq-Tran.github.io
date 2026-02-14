@@ -1,0 +1,79 @@
+body{
+    background-color: #ffc2cc;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 80px;
+    font-size: large;
+    background-color: #f291a156;
+    border: 3px solid black;
+}
+
+button:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 3px rgba(0,0,0.2);
+}
+
+#hoverButton{
+    position: fixed;
+    transition: all 0.01s linear;
+    width: 100px;
+    height: 30px;
+    font-size: small;
+}
+
+hr{
+    width: 70vw;
+}
+
+.main{
+    display: flex;
+    font-family:'Helvetica Neue';
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 98vh;
+    text-align: center;
+    background-color: #FFD8DF;
+}
+
+.mainTwo{
+    display: flex;
+    font-family:'Helvetica Neue';
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 98vh;
+    text-align: center;
+    background-color: #FFD8DF;
+}
+
+header{
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.responsive-img {
+    max-width: 100%; /* Ensures the image never exceeds its original width or its container's width */
+    height: auto;    /* Automatically adjusts height to maintain aspect ratio */
+    display: block;  /* Helps with alignment and removes extra space below the image */
+}
+
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("fonts/HelveticaNeueRoman.otf") format("opentype");
+}
+
