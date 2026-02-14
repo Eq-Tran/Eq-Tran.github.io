@@ -11,7 +11,7 @@ button.addEventListener('click' , function() {
 
 const noButton = document.getElementById("hoverButton")
 
-document.addEventListener('click', function(){
+noButton.document.addEventListener('click', function(){
     alert("SIKE! YOUR MINE ALREADY ;) I LOVE YOUUU")
     window.location.href = "pageTwo.html";
 })
@@ -63,5 +63,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     animateButton();
+
 
 });
